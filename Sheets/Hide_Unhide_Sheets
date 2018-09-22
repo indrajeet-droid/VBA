@@ -1,0 +1,6 @@
+Sub hide_unhide_sheets()
+
+Sheets("Sheet2").Visible = False
+Sheets("sheet2").Visible = True
+
+End Sub
