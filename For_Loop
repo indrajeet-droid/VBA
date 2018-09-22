@@ -2,7 +2,7 @@ Sub for_loop()
 
 Dim x As Integer
 
-For x = 1 To 10
+For x = 1 To 10 step 2
    
     MsgBox x
     
