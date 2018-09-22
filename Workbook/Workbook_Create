@@ -1,0 +1,8 @@
+Sub workbook_create()
+
+'ctrl+N
+Workbooks.Add
+
+Workbooks.Add.SaveAs Filename:="D:\Demo.xlsx"
+
+End Sub
