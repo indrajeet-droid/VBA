@@ -1,5 +1,7 @@
 Sub variable_usage()
 
+Dim Var1
+
 var1 = "Excel"
 
 Range("A1").Value = var1
