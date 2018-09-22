@@ -9,3 +9,18 @@ For x = 1 To 10 step 2
 Next
 
 End Sub
+
+
+```````````````````````````````````````````````````
+Sub for_loop()
+
+Dim x As Integer
+
+For x = 1 To 10
+   
+    Cells(x, 1).Value = 10
+    
+Next
+
+End Sub
+
