@@ -1,0 +1,7 @@
+Sub delete_folder()
+
+RmDir ("D:\Folder1")
+RmDir ("D:\Folder2")
+RmDir ("D:\Folder3")
+
+End Sub
