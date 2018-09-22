@@ -1,0 +1,11 @@
+Sub for_loop()
+
+Dim x As Integer
+
+For x = 1 To 10
+   
+    MsgBox x
+    
+Next
+
+End Sub
