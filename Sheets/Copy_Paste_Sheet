@@ -1,0 +1,6 @@
+Sub Copy_Paste_Sheet()
+
+Sheets("India").Copy after:=Sheets("Hello1")
+Sheets("India").Copy before:=Sheets("Indi")
+
+End Sub
