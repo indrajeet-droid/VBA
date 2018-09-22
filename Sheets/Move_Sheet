@@ -1,0 +1,6 @@
+Sub move_sheet()
+
+Sheets("India").Move after:=Sheets("Hello1")
+Sheets("India").Move before:=Sheets("Indi")
+
+End Sub
