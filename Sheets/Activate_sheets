@@ -1,0 +1,7 @@
+Sub activate_sheets()
+
+Sheets("Sheet2").Activate
+Sheets("sheet3").Select
+Sheets("sheet2").Select
+
+End Sub
