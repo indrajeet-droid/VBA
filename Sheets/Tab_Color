@@ -1,0 +1,7 @@
+Sub Tab_Color()
+
+Sheets("India").Tab.Color = vbRed
+
+Sheets("India").Tab.ColorIndex = 1
+
+End Sub
