@@ -24,3 +24,16 @@ Next
 
 End Sub
 
+```````````````````````````````````````````````````````
+Sub for_loop()
+
+Dim x As Integer
+
+For x = 1 To 10
+   
+    Cells(x, 1).Value = x
+    
+Next
+
+End Sub
+
