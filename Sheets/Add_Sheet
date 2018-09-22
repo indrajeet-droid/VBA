@@ -6,4 +6,6 @@ Worksheets.Add
 Sheets.Add after:=Sheets("Sheet2")
 Sheets.Add before:=Sheets("Sheet2")
 
+Sheets.Add.Name = "Indrajeet"
+
 End Sub
