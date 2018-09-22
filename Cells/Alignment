@@ -1,0 +1,11 @@
+Sub Alignment()
+
+Range("A1:A10").HorizontalAlignment = xlLeft
+Range("A1:A10").HorizontalAlignment = xlRight
+Range("A1:A10").HorizontalAlignment = xlCenter
+
+Range("A1:A10").VerticalAlignment = xlTop
+Range("A1:A10").VerticalAlignment = xlCenter
+Range("A1:A10").VerticalAlignment = xlBottom
+
+End Sub

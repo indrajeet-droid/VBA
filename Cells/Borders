@@ -1,0 +1,13 @@
+Sub Borders()
+
+Range("A1:A10").Value = "Ajeeta"
+Range("A1:A10").Borders.Color = vbGreen
+Range("A1:A10").Borders.Weight = 4
+Range("A1:A10").Borders.LineStyle = xlDot
+Range("A1:A10").Borders.LineStyle = xlDash
+Range("A1:A10").Borders.LineStyle = xlContinuous
+Range("A1:A10").Borders.LineStyle = xlDouble
+Range("A1:A10").Borders.LineStyle = xlNone
+
+
+End Sub

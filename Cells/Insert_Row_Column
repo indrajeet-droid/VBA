@@ -1,0 +1,11 @@
+Sub insert_row_column()
+
+Range("c:c").Insert 'one column will insert
+Range("c:d").Insert 'two column will insert
+
+Range("1:1").Insert
+
+Range("b5").EntireColumn.Insert
+Range("A1").EntireRow.Insert
+
+End Sub

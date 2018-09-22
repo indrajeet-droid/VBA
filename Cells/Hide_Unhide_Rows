@@ -1,0 +1,9 @@
+Sub hide_unhide_Rows()
+
+Range("1:1").Rows.Hidden = True
+Range("1:1").Rows.Hidden = False
+
+Range("1:9").Rows.Hidden = True
+Range("1:9").Rows.Hidden = False
+
+End Sub

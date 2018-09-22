@@ -1,0 +1,6 @@
+Sub cell_background_color()
+
+Range("A1:A10").Interior.Color = vbRed
+Range("A1:A10").Interior.ColorIndex = 54
+
+End Sub

@@ -1,0 +1,13 @@
+Sub column_width()
+
+Range("a1").ColumnWidth = 15
+Range("a1").ColumnWidth = 25
+Range("a1").ColumnWidth = 4
+
+Range("a1").Columns.ColumnWidth = 15
+Range("a1").Columns.ColumnWidth = 25
+Range("a1").Columns.ColumnWidth = 4
+
+Range("a1").Columns.AutoFit
+
+End Sub

@@ -1,0 +1,11 @@
+Sub Font()
+
+Range("A1:A20").Value = "Indrajeet"
+
+Range("A1:A20").Font.Name = "Arial"
+Range("A1:A20").Font.Bold = True
+Range("A1:A20").Font.Italic = True
+Range("A1:A20").Font.Underline = True
+Range("A1:A20").Font.Size = 20
+ 
+End Sub

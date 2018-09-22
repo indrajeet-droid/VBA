@@ -1,0 +1,9 @@
+Sub row_height()
+
+Range("a1").RowHeight = 100
+Range("a1:a5").RowHeight = 25
+
+Range("a1:a5").Rows.AutoFit
+
+End Sub
+ 

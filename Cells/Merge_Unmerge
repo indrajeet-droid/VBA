@@ -1,0 +1,6 @@
+Sub merge_unmerge()
+
+Range("a1:d1").Merge
+Range("a1:d1").UnMerge
+
+End Sub

@@ -1,0 +1,16 @@
+Sub with_block()
+
+Range("A1:A10").Value = "Hello World"
+
+With Range("A1:A10").Font
+
+    .Name = "Arial"
+    .Bold = False
+    .Italic = True
+    .Size = 20
+    .Size = 10
+    .Size = 10
+
+End With
+
+End Sub

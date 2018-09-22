@@ -1,0 +1,10 @@
+Sub delete_cells()
+
+Range("b3").Delete
+Range("b3:B10").Delete
+
+Range("A1").EntireRow.Delete
+Range("A1").EntireColumn.Delete
+
+
+End Sub

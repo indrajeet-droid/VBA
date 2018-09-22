@@ -1,0 +1,11 @@
+Sub pastespecial()
+
+Range("A1:A10").Copy
+
+Range("b1:b10").pastespecial xlPasteFormats
+Range("b1:b10").pastespecial xlPasteColumnWidths
+Range("b1:b10").pastespecial xlPasteValues
+
+Application.CutCopyMode = False
+
+End Sub

@@ -1,0 +1,15 @@
+Sub font_color()
+
+Range("A1:A5").Font.Color = vbGreen
+Range("A1:A5").Font.Color = vbBlack
+Range("A1:A5").Font.Color = vbYellow
+Range("A1:A5").Font.Color = vbRed
+Range("A1:A5").Font.Color = vbGreen
+Range("A1:A5").Font.Color = vbBlue
+Range("A1:A5").Font.Color = vbCyan
+Range("A1:A5").Font.Color = vbMagenta
+
+'color index till 56
+Range("A1:A5").Font.ColorIndex = 54
+
+End Sub

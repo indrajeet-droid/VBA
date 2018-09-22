@@ -1,0 +1,6 @@
+Sub wrap_text()
+
+Range("a1:a10").WrapText = True
+Range("a1:a10").WrapText = False
+
+End Sub

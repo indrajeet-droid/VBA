@@ -1,0 +1,10 @@
+Sub delete_row_column()
+
+Range("c5").EntireRow.Delete
+Range("a1:a3").EntireRow.Delete
+
+Range("c5").EntireColumn.Delete
+Range("a1:a3").EntireColumn.Delete
+
+End Sub
+ 

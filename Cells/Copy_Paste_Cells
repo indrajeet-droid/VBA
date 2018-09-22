@@ -1,0 +1,15 @@
+Sub Copy_Paste()
+
+'First Method
+
+Range("a1:a10").Value = "Tutorial"
+Range("b1:b10") = Range("A1:A10").Value
+Range("A11:A20").Value = Range("A1:A10").Value
+
+'2nd Method
+
+Range("A1:A10").Copy
+Range("D1:D10").PasteSpecial
+Application.CutCopyMode = False
+
+End Sub

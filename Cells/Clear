@@ -1,0 +1,9 @@
+Sub clear()
+
+Range("a1").ClearFormats
+Range("a1").ClearComments
+Range("a1").ClearHyperlinks
+Range("a1").clear
+
+End Sub
+ 

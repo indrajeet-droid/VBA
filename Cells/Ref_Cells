@@ -1,0 +1,11 @@
+Access Cell 4 methods
+
+	1. ActiveCell.Value = "Indrajeet"
+
+	2. [b5].Value = 70
+	   [b5:c10].Value = 70 'for multiple cell
+	
+	3. Cells(8, 2).Value = "India" 'RowIndex and column Index --useful
+	
+	4. Range("a1").Value = "Hello"   'Single Cell
+	   Range("a1:a10").Value = "Hello"   'Multiple Cell  --useful

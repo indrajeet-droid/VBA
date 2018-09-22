@@ -1,0 +1,9 @@
+Sub hide_unhide_columns()
+
+Range("A:A").Columns.Hidden = True
+Range("A:A").Columns.Hidden = False
+
+Range("B:D").Columns.Hidden = True
+Range("B:D").Columns.Hidden = False
+
+End Sub

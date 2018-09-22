@@ -1,0 +1,16 @@
+Sub select_activate()
+
+Range("a2").Select
+Range("b2").Select
+
+Range("a2:a5").Select
+
+Range("a3").Activate
+Range("b2").Activate
+Range("a2:a5").Activate
+
+Range("c7:c10").Select
+Range("C8").Activate
+
+End Sub
+ 

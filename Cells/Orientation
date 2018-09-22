@@ -1,0 +1,14 @@
+Sub orientation()
+
+Range("a1").orientation = 0
+Range("a1").orientation = 10
+Range("a1").orientation = 20
+Range("a1").orientation = 30
+Range("a1").orientation = 40
+Range("a1").orientation = 50
+Range("a1").orientation = 60
+Range("a1").orientation = 70
+Range("a1").orientation = 80
+Range("a1").orientation = 90
+
+End Sub
