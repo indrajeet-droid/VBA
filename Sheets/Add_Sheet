@@ -1,0 +1,9 @@
+Sub add_sheet()
+
+Sheets.Add
+Worksheets.Add
+
+Sheets.Add after:=Sheets("Sheet2")
+Sheets.Add before:=Sheets("Sheet2")
+
+End Sub
