@@ -1,0 +1,14 @@
+Sub get_workbook_name()
+
+MsgBox (ActiveWorkbook.Name)
+
+'thisworkbook means where code is written
+MsgBox (ThisWorkbook.Name)
+
+'file must be opened
+Workbooks("Demo.xlsx").Activate
+
+MsgBox (ActiveWorkbook.Name)
+MsgBox (ThisWorkbook.Name)
+
+End Sub
