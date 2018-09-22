@@ -1,0 +1,11 @@
+Sub workbook_open_save_close()
+
+Workbooks.Open Filename:="D:\Demo.xlsx"
+'or
+'workbooks.open "D:\Demo.xlsx"
+
+Workbooks("Demo.xlsx").Sheets(1).Range("a1:a10").Value = "Indrajeet"
+Workbooks("Demo.xlsx").Save
+Workbooks("Demo.xlsx").Close
+
+End Sub
