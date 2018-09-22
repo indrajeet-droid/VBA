@@ -1,0 +1,8 @@
+Sub Rename_Sheets()
+
+Sheets(1).Name = "Hello"
+
+Sheets("sheet1").Name = "India"
+
+
+End Sub
