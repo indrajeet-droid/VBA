@@ -1,0 +1,9 @@
+Sub variable_usage()
+
+var1 = "Excel"
+
+Range("A1").Value = var1
+
+Range("B1").Value = var1 & " " & var1
+
+End Sub
