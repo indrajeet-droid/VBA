@@ -1,0 +1,6 @@
+Sub protect_unprotect_sheets()
+
+Sheets("Sheet2").Protect Password:=123
+Sheets("sheet2").Unprotect Password:=123
+
+End Sub
