@@ -1,0 +1,7 @@
+Sub Sheets_Referencing()
+
+
+Sheets(1).Range("A1:A10").Value = "Excel VBA"
+Sheets("Sheet1").Range("A1:A10") = "Excel VBA 1"
+
+End Sub
