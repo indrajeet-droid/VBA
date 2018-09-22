@@ -1,0 +1,8 @@
+Sub create_folder()
+
+'any file can be deleted
+MkDir ("D:\Folder1")
+MkDir ("D:\Folder2")
+MkDir ("D:\Folder3")
+
+End Sub
