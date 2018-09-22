@@ -1,0 +1,6 @@
+Sub delete_workbook()
+
+'any file can be deleted
+Kill ("D:\a.txt")
+
+End Sub
