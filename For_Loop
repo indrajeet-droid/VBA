@@ -52,3 +52,18 @@ For x = 1 To 56
 Next
 
 End Sub
+
+````````````````````````````````````````````````````````````````
+Sub for_loop()
+
+Dim x As Integer
+
+For x = 20 To 1 Step -1
+
+    Cells(x, 1).Value = x
+    Cells(x, 2).Interior.ColorIndex = x
+    
+Next
+
+End Sub
+
