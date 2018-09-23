@@ -84,5 +84,16 @@ For x = 20 To 1 Step -1
 Next
 
 End Sub
+``````````````````````````````````````````
+Sub sheets_name()
 
+For x = 1 To ThisWorkbook.Sheets.Count
+
+MsgBox ThisWorkbook.Sheets(x).Name
+
+Next
+
+
+
+End Sub
 
