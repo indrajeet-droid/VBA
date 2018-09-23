@@ -2,6 +2,8 @@ Sub for_loop()
 
 Dim x As Integer
 
+'condition 10(10 or less than 10)
+'step 2 increment by 2
 For x = 1 To 10 step 2
    
     MsgBox x
