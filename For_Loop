@@ -66,4 +66,23 @@ For x = 20 To 1 Step -1
 Next
 
 End Sub
+``````````````````````````````````````````````````````
+
+Sub for_loop()
+
+Dim x As Integer
+
+Dim y As Integer
+y = 1
+
+For x = 20 To 1 Step -1
+
+    Cells(x, x).Interior.Color = vbRed
+    Cells(x, y).Interior.Color = vbRed
+    y = y + 1
+    
+Next
+
+End Sub
+
 
