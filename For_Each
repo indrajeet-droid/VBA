@@ -1,0 +1,12 @@
+Sub for_each_next_1()
+
+Dim sht As Worksheet
+
+For Each sht In Worksheets
+
+    MsgBox sht.Name
+
+Next
+
+
+End Sub
