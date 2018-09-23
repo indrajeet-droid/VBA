@@ -10,3 +10,17 @@ Next
 
 
 End Sub
+
+```````````````````````````````````
+Sub for_each_next_1()
+
+Dim sht As Worksheet
+
+For Each sht In ThisWorkbook.Sheets
+
+    MsgBox sht.Name
+
+Next
+
+
+End Sub
