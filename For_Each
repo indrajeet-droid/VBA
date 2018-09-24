@@ -1,3 +1,18 @@
+Sub worksheets_1()
+
+Dim ws As Worksheet
+
+For Each ws In Worksheets
+
+    Debug.Print ws.Name
+Next ws
+
+
+End Sub
+
+
+
+`````````````````````````````````````````````````````
 Sub for_each_next_1()
 
 Dim sht As Worksheet
