@@ -1,0 +1,26 @@
+Sub takeScreenShot(wbMater As Workbook, strSheetName As String, Path As String, strOrderNumber As String, strCustomerNumber As String, strCustomerName As String)
+
+      
+ Dim oWs As Worksheet
+ Dim oRng As Range
+ Dim oChrtO As ChartObject
+ Dim lWidth As Long, lHeight As Long
+
+ Set oWs = wbMater.Worksheets(strSheetName)
+ Set oRng = oWs.Range("A1:K38")
+
+ oRng.CopyPicture xlScreen, xlPicture
+ lWidth = oRng.Width
+ lHeight = oRng.Height
+
+ Set oChrtO = oWs.ChartObjects.Add(Left:=0, Top:=0, Width:=lWidth, Height:=lHeight)
+
+ oChrtO.Activate
+ With oChrtO.Chart
+  .Paste
+  .Export Filename:=Path & "\" & strCustomerNumber & "_" & strCustomerName & "_" & strOrderNumber & ".png ", Filtername:="png"
+ End With
+
+ oChrtO.Delete
+
+End Sub
